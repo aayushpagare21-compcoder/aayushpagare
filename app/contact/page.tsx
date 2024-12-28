@@ -6,6 +6,18 @@ import { Card } from "../components/card";
 
 const socials = [
   {
+    icon: <span>LinkedIn</span>,
+    href: "https://www.linkedin.com/in/aayush-pagare-5817a81aa/",
+    label: "LinkedIn",
+    handle: "Aayush Pagare",
+  },
+  {
+    icon: <Github size={20} />,
+    href: "https://github.com/aayushpagare21-compcoder",
+    label: "Github",
+    handle: "@aayushpagare21-compcoder",
+  },
+  {
     icon: <span>Medium</span>,
     href: "https://medium.com/@aayushpagare21",
     label: "Medium",
@@ -17,12 +29,6 @@ const socials = [
     label: "Email",
     handle: "aayushpagare21@gmail.com",
   },
-  {
-    icon: <Github size={20} />,
-    href: "https://github.com/aayushpagare21-compcoder",
-    label: "Github",
-    handle: "@aayushpagare21-compcoder",
-  },
 ];
 
 export default function Example() {
@@ -30,7 +36,7 @@ export default function Example() {
     <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-        <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+        <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
           {socials.map((s) => (
             <Card>
               <Link
