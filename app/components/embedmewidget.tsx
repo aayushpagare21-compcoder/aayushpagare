@@ -26,7 +26,7 @@ const ChatWidget = () => {
 
       {/* Chat Iframe Container */}
       {isOpen && (
-        <div className="fixed bottom-20 right-0 md:right-4 rounded-lg shadow-xl transition-all duration-400 overflow-hidden">
+        <div className="fixed bottom-20 right-0 md:right-8 rounded-lg shadow-xl transition-all duration-400 overflow-hidden">
           {/* Responsive container for the iframe */}
           <div className="w-screen md:w-[300px] 2xl:w-[500px] h-[80vh]">
             <iframe
